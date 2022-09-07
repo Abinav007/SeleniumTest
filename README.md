@@ -8,9 +8,14 @@ A brief description of what this project does
 * TestNG 7.6
 
 ### Steps to Execution
-* src/link.properties
+* Clone the Project into Eclipse .
+* Add below External Jar into this project:
+    * selenium-server-4.4.0
+    * TestNG-7.6.1
+* Navigate to src/link.properties and change below properties:
     * chromeDriver_URL -  ChromeDriver.exe file path,
     * imdb_link        - IMDB Movie link 
         (Sample - https://www.imdb.com/title/tt9389998/)
     * wikipedia_link   - Wikipedia Movie Link
         (Sample - https://en.wikipedia.org/wiki/Pushpa:_The_Rise)
+* Right click on src/selenium/testMoviedetails.java -> Run as Java Application .
