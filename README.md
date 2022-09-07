@@ -21,3 +21,5 @@ A brief description of what this project does
 * Right click on src/selenium/testMoviedetails.java -> Run as Java Application .             (OR)
 
 * Navigate to testng.XML -> Right click any where inside the file -> Run as TestNG Suite.
+
+* Once the execution is done , Go to testng-output -> emailable-report.html displays test status.
