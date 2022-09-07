@@ -18,4 +18,6 @@ A brief description of what this project does
         (Sample - https://www.imdb.com/title/tt9389998/)
     * wikipedia_link   - Wikipedia Movie Link
         (Sample - https://en.wikipedia.org/wiki/Pushpa:_The_Rise)
-* Right click on src/selenium/testMoviedetails.java -> Run as Java Application .
+* Right click on src/selenium/testMoviedetails.java -> Run as Java Application .             (OR)
+
+* Navigate to testng.XML -> Right click any where inside the file -> Run as TestNG Suite.
