@@ -22,4 +22,4 @@ A brief description of what this project does
 
 * Navigate to testng.XML -> Right click any where inside the file -> Run as TestNG Suite.
 
-* Once the execution is done , Go to testng-output -> emailable-report.html displays test status.
+* Once the execution is done , Go to testng-output -> emailable-report.html displays test result status.
