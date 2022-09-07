@@ -38,12 +38,13 @@ public class testMovieDetails implements ITestListener {
 		ResourceBundle bundle = ResourceBundle.getBundle("link");
 		String imdb = bundle.getString("imdb_link");
 		String wikipedia = bundle.getString("wikipedia_link");
+		String chromeDriverURL = bundle.getString("chromeDriver_URL");
 		String[] months = new String[] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"};
 		List<WebElement> imdbReleaseDate = Collections.emptyList();
 		List<String> country = new ArrayList<>();
 		List<String> releaseDate = new ArrayList<>();
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Abinav Automation\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", chromeDriverURL);
 		WebDriver web = new ChromeDriver();
 		
 		web.navigate().to(wikipedia);
